@@ -1,9 +1,11 @@
+// This is a personal academic project. Dear PVS-Studio, please check it.
+// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
 package editor;
 
 import javax.swing.*;
 
-public class ApplicationRunner {
-    public static void main(String[] args) {
+class ApplicationRunner {
+    public static void main(final String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
